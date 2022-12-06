@@ -3,44 +3,8 @@ h2{
     text-align: center;
 
 }
-.outer{
-    margin:auto;
-}
-.inner{
-    position:absolute; /*絶対値指定*/
-    height: 1.2rem; /*高さ指定*/
-    right:0;
-    top:0; /*上からの位置指定*/
-    bottom:0; /*下からの位置指定*/
-    margin:auto;
-    width: 50%;
-}
-.inner.profile{
-    margin:auto;
-}
-.inner a{
-    margin-left:50px;
-}
+
 /*検索アイコン*/
-.search_box {
-    display: inline-block; /* なくても大丈夫だけど、念の為 */
-    position: relative;    /* 基準値とする */
-  }
-  
-  .search_box::before {
-    content: "";           /* 疑似要素に必須 */
-    width: 16px;           /* アイコンの横幅 */
-    height: 16px;          /* アイコンの高さ */
-    background-image: url(icon.png) ; /* 背景にアイコン画像を配置 */
-    display: inline-block; /* 高さを持たせるためにインラインブロック要素にする */
-    position: absolute;    /* 相対位置に指定 */
-    top: 4px;              /* アイコンの位置。微調整してね */
-    right: 5px;             /* アイコンの位置。微調整してね */
-  }
-  
-  .search_box input {
-    padding: 3px 0 3px 2em; /* アイコンを設置するため左の余白を多めに指定*/
-  }
 
 main{
     text-align:center;
