@@ -3,11 +3,8 @@ h2{
     text-align: center;
 
 }
-
-
 .outer{
     margin:auto;
-    
 }
 .inner{
     position:absolute; /*絶対値指定*/
@@ -20,6 +17,9 @@ h2{
 }
 .inner.profile{
     margin:auto;
+}
+.inner a{
+    margin-left:50px;
 }
 /*検索アイコン*/
 .search_box {
@@ -41,9 +41,7 @@ h2{
   .search_box input {
     padding: 3px 0 3px 2em; /* アイコンを設置するため左の余白を多めに指定*/
   }
-.inner a{
-    margin-left:50px;
-}
+
 main{
     text-align:center;
 }
