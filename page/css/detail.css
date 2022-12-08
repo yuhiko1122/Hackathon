@@ -1,6 +1,13 @@
 main{
     text-align:center;
 }
+.content{
+    padding:20px;
+}
+/* main内の各divごとに隙間を追加 */
+.contentBox div{
+    padding:20px;
+}
 .update{
     margin:auto;
     margin-top:30px;
