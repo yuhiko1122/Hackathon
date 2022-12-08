@@ -12,53 +12,43 @@
 
 
 
-<body>
+<body> 
     <header>
         <div class='outer'>
-            <h1>ひな形プロジェクト</h1>
+            <h1>記事一覧</h1>
             <div class="inner"> 
-                <div class="search_box">
-                    <input type="text" placeholder="ここにキーワード">
-                </div>
-                  <!-- リンク先未作成 -->
-                <a  href="edit.html">編集・投稿</a>
-                <a class='profile' href="profile.html">プロフィール</a>
+                <a  href="user-profile.html">プロフィール</a>
+                <a  href="">ログアウト</a>
+                <a  href="">グループ一覧</a>
+                <a  href="upload.html">新規投稿</a>
             </div>
         </div>
     </header>
 
     <main>
-        <h2>記事一覧</h2>
-        <p>※文字はイメージです</p>
         <div class='content'>
-              <div class='contenttext'>
                   <table>
-                    <tr>
-                      <th>
-                        <td>
-                          <p>url:<a class='url'>file:///C:/Users/user/Documents/page/view.html</a></p>
-                        </td>
-                      </th>
-                      <th class='image' rowspan="3">
-                        <p> イメージ画像</p>
-                      </th>
-                    </tr>
+                   
                   
                     <tr>
                       <th>
-                        <td>
                           <p class='class'> タイトル</p>
-                        </td>
                       </th>
-                    </tr>
-                   <tr>
-                    <th>
+                      <!-- リンクは文章 -->
                       <td>
-                        <p class='snippet'>スニペット</p>
+                        <a href="detail.html">クリックしたら詳細画面へ</a>
                       </td>
-                    </th>
-                   </tr>
-                    
+                    </tr>
+
+                    <tr>
+                      <th>
+                          <p class='class'> キーワード</p>
+                      </th>
+                      <td>
+                        
+                      </td>
+                    </tr>
+                
                   </table>
               
             </div>
@@ -66,7 +56,6 @@
     </main>
 
     <footer>
-        <p>製作中</p>
     </footer>
 
 </body>
@@ -74,52 +63,4 @@
 </html>
 
 
-<!-- <script>
-var obj1 = document.getElementById("selfile");
 
-//ダイアログでファイルが選択された時
-
-obj1.addEventListener("change",function(evt){
-
-  var file = evt.target.files;
-
-  //FileReaderの作成
-  var reader = new FileReader();
-  //テキスト形式で読み込む
-  reader.readAsText(file[0]);
-  
-  //読込終了後の処理
-  reader.onload = function(ev){
-    //テキストエリアに表示する
-    document.test.txt.value = reader.result;
-  }
-},false);
-
-
-
-<!--<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <title>偽ギットハブ index</title>
-</head>
-<body>
-<pre id="preview" ></pre>
-<input type="radio">
-<td><input type=file name="aaaaa"></td>
-<input type="file" id="getfile" accept="text/*">-->
-<!--<script>file = document.querySelector('#getfile');
-file.onchange = function (){
-  var fileList = file.files;
-  //読み込み
-  var reader = new FileReader();
-  reader.readAsText(fileList[0]);
-
-  //読み込み後
-  reader.onload = function  () {
-    document.querySelector('#preview').textContent = reader.result;
-  };
-};
-
-
-</script>  -->
