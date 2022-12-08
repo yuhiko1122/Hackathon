@@ -31,10 +31,32 @@ h1{
 }
 .inner a{
     margin-left:20px;
-}   
+}  
+
+/*ヘッダー部分に適応*/
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+}
+
+.view-a {
+  color: #fff;
+} 
+.px-3 py-2 bg-dark text-white a:hover{
+    color: rgb(212, 245, 245);
+}
 
 
-
+/*フッターに適応*/
 footer{
 	text-align: center;
 	width:100%;	
