@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
     <title>detail</title>
     <link rel="stylesheet" href="css/base.css"><!-- 共通のCSS -->
-    <link rel="stylesheet" href="css/detail.css"><!-- 共通のCSS -->
+    <link rel="stylesheet" href="css/rewrite.css"><!-- 共通のCSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 
@@ -85,12 +85,13 @@
 
   <!--メインの内容-->
 
-<main>
-                <h3>タイトル</h3>
-                <div class='text'>
-                    <textarea type="text" name="title" cols="40" rows="2" wrap="soft"></textarea>
-                </div>
-                <!-- URLいるかわからない -->               
+        <main>
+          <div class="contentBox">
+            <div>
+              <h3>タイトル</h3>
+              <textarea type="text" name="title" cols="40" rows="2" wrap="soft"></textarea>
+             </div>
+
             <div>
                 <h3>キーワード</h3>
                 <textarea type="text" name="title" cols="40" rows="2" wrap="soft"></textarea>
@@ -101,10 +102,13 @@
                 <textarea type="text" name="title" cols="40" rows="2" wrap="soft"></textarea>
             </div>
 
-        <!-- 記事の変更 -->
-            <h3>内容説明</h3>
-            <textarea type="text" name="title" cols="50" rows="30" wrap="hard"></textarea>
-
+            <div>
+              <!-- 記事の変更 -->
+              <h3>内容説明</h3>
+              <textarea type="text" name="title" cols="50" rows="30" wrap="hard"></textarea>
+            </div>
+          </div>
+              
             <!-- 編集はリンクがいい、削除はボタンがいい -->
             <!-- <div class="update">
                 <input type="button" value="編集" id="edit">
