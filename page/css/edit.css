@@ -5,15 +5,17 @@
     -moz-user-select: none;
     user-select: none;
   }
-img{
-    color: #fff;
-  }
 
   @media (min-width: 768px) {
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
     }
-  }
+}
+
+.view-a {
+  color: #fff;
+}
+
 main{
     text-align:center;
 }
