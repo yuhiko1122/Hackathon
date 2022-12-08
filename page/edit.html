@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+    <title>edit</title>
+    <link rel="stylesheet" href="css/base.css"><!-- 共通のCSS -->
+    <link rel="stylesheet" href="css/edit.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+
+
+<header>
+    <div class="px-3 py-2 bg-dark text-white">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+              <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+            </a>
+  
+            <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+              <li>
+                <a href="view.html" class="nav-link text-secondary">
+                  <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#home"/></svg>
+                  記事一覧
+                </a>
+              </li>
+              <li>
+                <a href="user-profile.html" class="nav-link text-white">
+                  <!--<svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="image/account.png"/></svg>-->
+                  <img src="image/account.png" alt="アカウント"  width="24" height="24">
+                  プロフィール
+                </a>
+              </li>
+              <li>
+                <a href="group-view.html" class="nav-link text-white">
+                  <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#table"/></svg>
+                  グループ一覧
+                </a>
+              </li>
+              <li>
+                <a href="upload.html" class="nav-link text-white">
+                  <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid"/></svg>
+                  新規投稿
+                </a>
+              </li>
+              <li>
+                <a href="" class="nav-link text-white">
+                  <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#people-circle"/></svg>
+                  ログアウト
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+</header>
+
+<main>
+    <!-- タイトル -->
+            <div class='title'>
+                <h3>タイトル</h3>
+                <div class='text'>
+                    <textarea type="text" name="title" cols="40" rows="2" wrap="soft"></textarea>
+                </div>
+            </div>
+               
+            <div>
+                <h3>キーワード</h3>
+                <textarea type="text" name="title" cols="40" rows="2" wrap="soft"></textarea>
+            </div>
+
+            <div>
+                <h3>使用URL一覧</h3>
+                <textarea type="text" name="title" cols="40" rows="2" wrap="soft"></textarea>
+            </div>
+
+        <!-- 記事の変更 -->
+            <h3>内容説明</h3>
+            <textarea type="text" name="title" cols="50" rows="30" wrap="hard"></textarea>
+           
+    <!-- 投稿ボタン -->
+    <div class="upbutton">
+        <input type="button" value="更新" id="edit">
+    </div>
+</main>
+
+<!-- 不必要 -->
+<footer>
+</footer>
+
+</body>
+
+</html>
