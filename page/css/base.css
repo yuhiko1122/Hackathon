@@ -1,9 +1,6 @@
+/*全てに適応*/
 * { 
-    -webkit-box-sizing:border-box; 
-    -moz-box-sizing:border-box; 
-    -ms-box-sizing:border-box; 
-    -o-box-sizing:border-box; 
-    box-sizing:border-box; 
+  box-sizing:border-box; 
 }
   
 html { 
@@ -49,7 +46,6 @@ body {
 }  
 
 /*ヘッダー部分に適応*/
-
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -64,19 +60,13 @@ body {
     }
 }
 
+.hover li:hover{
+    background-color: rgb(171, 169, 162);
+}
+
 .view-a {
   color: #fff;
 } 
 .px-3 py-2 bg-dark text-white a:hover{
     color: rgb(212, 245, 245);
-}
-
-
-/*フッターに適応*/
-footer{
-	text-align: center;
-	width:100%;	
-	background:blueviolet;
-	position: fixed;/*←固定位置*/
-    bottom: 0; /*下に固定*/
 }
