@@ -26,10 +26,10 @@ main{
     width:35%;
   }
   /* placeholderの変更ができない */
-  /* .formcontrol::placeholder{
+  /* ::placeholder{
     color:green;
     opacity:0;
-  } */
+  }  */
   .textarea{
     text-align:start;
   }
