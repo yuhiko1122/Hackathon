@@ -88,26 +88,25 @@
 
   <!--メインの内容-->
   <main>
-    <h2 class="login">グループ作成</h2>
-    <form>
-      <div class="form-floating">
-        <input type="name" class="form-control" id="floatingPassword" placeholder="Password">
-        <label for="floatingPassword">Group ID:</label>
-      </div>
-      <div class="form-floating">
-        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-        <label for="floatingPassword">Password:</label>
-      </div>
+    <div class="login-header">
+      <h2>グループ作成</h2>
+      <form method="post">
+        <div class="form-floating">
+          <input type="name" class="form-control" id="floatingPassword" placeholder="GroupID">
+          <label for="floatingPassword">Group ID:</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Password:</label>
+        </div>
+      </form>
+
       
-  
-    </form>
-
-    <div class="account-btn">
-      <!--グループ作成ボタン-->
-      <div class="btn-radius">
-        <a href="user-profile.html" class="btn btn-radius-gradient">Create</a>
-      </div>
-
+        <!--グループ作成ボタン-->
+        <div>
+          <a href="user-profile.html" class="btn btn-primary btn-block btn-large">Create</a>
+        </div>
+      
     </div>
     
   </main>

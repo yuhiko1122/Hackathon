@@ -88,40 +88,40 @@
 
   <!--メインの内容-->
   <main>
-    <h2 class="login">アカウント</h2>
-    <form>
-      <div class="form-floating">
-        <input type="name" class="form-control" id="floatingInput" placeholder="name@example.com">
-        <label for="floatingInput">名前:</label>
-      </div>
-      <div class="form-floating">
-        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-        <label for="floatingPassword">Password:</label>
-      </div>
-      <div class="form-floating">
-        <input type="name" class="form-control" id="floatingPassword" placeholder="Password">
-        <label for="floatingPassword">Group ID:</label>
-      </div>
-  
-    </form>
+    <div class="login-header">
+      <h2>アカウント</h2>
+      <form method="post">
+        <div class="form-floating">
+          <input type="name" class="form-control" id="floatingInput" placeholder="Username">
+          <label for="floatingInput">Username:</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Password:</label>
+        </div>
+        <div class="form-floating">
+          <input type="name" class="form-control" id="floatingPassword" placeholder="GroupID">
+          <label for="floatingPassword">Group ID:</label>
+        </div>
+      </form>
+    
+      <div class="account-btn">
+        <!--アカウント編集ボタン-->
+        <div>
+          <a href="user-edit.html" class="btn btn-primary btn-block btn-large">アカウント編集</a>
+        </div>
 
-    <div class="account-btn">
-      <!--アカウント編集ボタン-->
-      <div class="btn-radius">
-        <a href="user-edit.html" class="btn btn-radius-gradient">アカウント編集</a>
-      </div>
+        <!--アカウント削除ボタン-->
+        <div>
+          <a href="login.html" class="btn btn-primary btn-block btn-large">アカウント削除</a>
+        </div>
 
-      <!--アカウント削除ボタン-->
-      <div class="btn-radius">
-        <a href="login.html" class="btn btn-radius-gradient">アカウント削除</a>
-      </div>
-
-      <!--グループ作成ボタン-->
-      <div class="btn-radius">
-        <a href="group.html" class="btn btn-radius-gradient">グループ作成</a>
+        <!--グループ作成ボタン-->
+        <div>
+          <a href="group.html" class="btn btn-primary btn-block btn-large">グループ作成</a>
+        </div>
       </div>
     </div>
-    
   </main>
     
   <!--フッター-->
