@@ -3,6 +3,7 @@
 main{
     text-align:center;
   }
+
   /* main内の各divごとに隙間を追加 */
   .contentBox div{
     padding:20px;
