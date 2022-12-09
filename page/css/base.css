@@ -1,9 +1,5 @@
 /*全てに適応*/
 * { 
-    -webkit-box-sizing:border-box; 
-    -moz-box-sizing:border-box; 
-    -ms-box-sizing:border-box; 
-    -o-box-sizing:border-box; 
     box-sizing:border-box; 
 }
   
@@ -39,8 +35,8 @@ body {
     }
 }
 
-.text-white a:hover{
-    color: rgb(193, 186, 186);
+.hover li:hover{
+    background-color: rgb(171, 169, 162);
 }
 
 .view-a {
