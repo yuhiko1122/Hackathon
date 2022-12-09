@@ -3,13 +3,13 @@ h2{
     text-align: center;
 }
 
-/*検索アイコン*/
 
 main{
     text-align:center;
 }
 .content {
     margin:auto;
+    margin-top:20px;
     border-width:5px;
 	border-color: #006DD9;
 	border-style: inset;
@@ -22,23 +22,37 @@ main{
 .image{
     vertical-align:top;
 }
-table{
-    border-collapse:collapse;
-}
-td,th{
-    border-width:1px;
-	border-color: #006DD9;
-	border-style: inset;
-    border-collapse:collapse;
-    border-left-style:none;
-    padding:0 20px 0 10px;
-}
-td{
-    width:627px;
-    border-right-style:none;
-    text-align:left;
-}
+
 .image{
     margin-right:20px;
 }
+
+
+ul.list-group{
+    margin-top:30px;
+}
+/*名前枠*/
+.list-group-item{
+    width:50%;
+    height:30%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+}
+/*削除ボタン*/
+td .list-group-item{
+    width:70px;
+}   
+td .list-group-item:hover{
+    color:blue;
+}
+
+.user-view p{
+    display: inline-block;
+}
+tr{
+    height:40px; 
+ }
+
+
 
