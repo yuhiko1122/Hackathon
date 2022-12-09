@@ -1,3 +1,4 @@
+/*全てに適応*/
 * { 
     -webkit-box-sizing:border-box; 
     -moz-box-sizing:border-box; 
@@ -23,30 +24,7 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3E1D6D', endColorstr='#092756',GradientType=1 );
 }
 
-
-
-.outer{
-    margin:auto;
-    
-}
-.inner{
-    position:absolute; /*絶対値指定*/
-    height: 1.2rem; /*高さ指定*/
-    right:0;
-    top:0; /*上からの位置指定*/
-    bottom:0; /*下からの位置指定*/
-    margin:auto;
-    width: 50%;
-}
-.inner.profile{
-    margin:auto;
-}
-.inner a{
-    margin-left:20px;
-}  
-
 /*ヘッダー部分に適応*/
-
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -61,19 +39,13 @@ body {
     }
 }
 
+.text-white a:hover{
+    color: rgb(193, 186, 186);
+}
+
 .view-a {
   color: #fff;
 } 
 .px-3 py-2 bg-dark text-white a:hover{
     color: rgb(212, 245, 245);
-}
-
-
-/*フッターに適応*/
-footer{
-	text-align: center;
-	width:100%;	
-	background:blueviolet;
-	position: fixed;/*←固定位置*/
-    bottom: 0; /*下に固定*/
 }
