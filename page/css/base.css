@@ -20,9 +20,6 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3E1D6D', endColorstr='#092756',GradientType=1 );
 }
 
-.Box.text-green:hover {
-    color:green;
-}
 
 
 .outer{
